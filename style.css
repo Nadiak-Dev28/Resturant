@@ -324,6 +324,11 @@ button:focus-visible,
   transform: translateY(-6.5px) rotate(-45deg);
 }
 
+/* Hidden by default; only shown as a fixed overlay on mobile (see media query) */
+.nav-mobile {
+  display: none;
+}
+
 /* ============================================================
    HERO
    ============================================================ */
@@ -1074,6 +1079,7 @@ button:focus-visible,
   }
 
   .nav-mobile {
+    display: flex;
     position: fixed;
     inset: 0;
     background: var(--charcoal);
