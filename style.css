@@ -377,8 +377,9 @@ button:focus-visible,
 }
 
 .hero .eyebrow {
+  position: relative;
+  top: 30px;
   color: var(--gold-soft);
-  margin-top: 15px;
   opacity: 0;
   animation: fadeUp 1s var(--ease) 0.4s forwards;
 }
