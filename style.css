@@ -378,10 +378,9 @@ button:focus-visible,
 
 .hero .eyebrow {
   color: var(--gold-soft);
-  margin-top: 10px;
   opacity: 0;
   animation: fadeUp 1s var(--ease) 0.4s forwards;
-}}
+}
 
 .hero h1 {
   font-size: clamp(2.6rem, 6vw, 5rem);
