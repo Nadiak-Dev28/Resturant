@@ -371,7 +371,7 @@ button:focus-visible,
   z-index: 1;
   width: 100%;
   max-width: var(--container);
-  margin: 0 auto;
+  margin: 10 auto;
   padding: 0 var(--gutter) 120px;
   color: var(--ivory);
 }
